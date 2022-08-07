@@ -1,3 +1,4 @@
 helm repo index .
 cr --config config.yaml upload
 cr index
+helm repo add github https://raw.githubusercontent.com/ufateh/pages/gh-pages/.cr-index/
