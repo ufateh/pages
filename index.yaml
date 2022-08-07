@@ -3,6 +3,22 @@ entries:
   cachingchart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-08-07T22:39:23.338976+02:00"
+    dependencies:
+    - condition: hazelcast.enabled
+      name: hazelcast
+      repository: https://hazelcast-charts.s3.amazonaws.com/
+      version: 5.4.2
+    description: A Helm chart to test hazelcast successful deployment along with a
+      spring app which can access it.
+    digest: fdc63fc811ef386e50247f5dbf527b1810e0fccb47dda73f199008800cb1efe8
+    name: cachingchart
+    type: application
+    urls:
+    - https://github.com/ufateh/pages/releases/download/cachingchart-0.1.2/cachingchart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-08-07T22:05:50.379769+02:00"
     dependencies:
     - condition: hazelcast.enabled
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://github.com/ufateh/pages/releases/download/cachingchart-0.1.1/cachingchart-0.1.1.tgz
     version: 0.1.1
-generated: "2022-08-07T22:05:50.37978+02:00"
+generated: "2022-08-07T22:39:23.338985+02:00"
